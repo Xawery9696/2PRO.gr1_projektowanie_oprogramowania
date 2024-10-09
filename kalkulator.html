@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="odliczanie">0</div>
+    <button onclick="dodawanie()">Dodaj</button>
+
+    <script>
+        let count = 0;
+
+        function dodawanie() {
+            count++;
+            document.getElementById("odliczanie").textContent = count;
+        }
+    </script>
+</body>
+</html>
